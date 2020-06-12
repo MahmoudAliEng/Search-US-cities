@@ -10,6 +10,31 @@
 <body>
 
     
+  <div class="custom-search">
+    
+    <label>Sort by:</label>
+    <input type="radio" name="population" id="sortSearchPop"  value="Population">
+    <label for="sortSearchPop">Population</label>
+    <input type="radio" name="population" id="sortSearchCity"  value="City Name">
+    <label for="sortSearchCity">City Name</label>
+    <input type="radio" name="population" id="sortSearchState"  value="State Name">
+    <label for="sortSearchState">State Name</label>
+
+</div>
+  
+
+
+<form class="search-form">
+  <div class="number-results">
+    <span id="number-results-span"></span>
+  </div>
+  <input type="text" class="search" placeholder="City or State" autocomplete="off">
+  <ul class="suggestions">
+    <li>Filter for a city</li>
+    <li>or a state</li>
+  </ul>
+</form>
+
     
     <script src="./script.js"></script>
 </body>
